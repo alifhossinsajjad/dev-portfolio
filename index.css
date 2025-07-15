@@ -85,7 +85,8 @@ nav ul {
 
 nav ul li {
     list-style: none;
-    margin: 50px;
+    justify-content: space-around;
+    margin: 20px;
 }
 
 nav li a {
@@ -249,8 +250,29 @@ footer textarea {
     .skills-container,
     .resume-container,
     footer,
-    .about-items {
+    nav,
+    nav > ul,
+    .about-items,
+    .banner {
         flex-direction: column;
+    }
+
+
+
+    .banner {
+        margin: 20px;
+    }
+
+    .btn-primary {
+        margin-bottom: 30px;
+    }
+
+    .banner-profile{
+        width: 100%;
+    }
+
+    .header {
+        background-image: none;
     }
 
     footer,
@@ -267,6 +289,7 @@ footer textarea {
     footer textarea {
         width: calc(100% - 40px);
     }
+
 
 
 
